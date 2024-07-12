@@ -1,0 +1,21 @@
+{
+  "name": "js-kata-dni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test-w": "vitest",
+    "test:unit": "vitest --environment jsdom",
+    "test:cover": "vitest run --coverage"
+  },
+  "author": "hugo",
+  "license": "ISC",
+  "dependencies": {
+    "vitest": "^2.0.2"
+  }
+}
